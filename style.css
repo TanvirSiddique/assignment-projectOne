@@ -1,0 +1,108 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.topsegemnt-background {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.first-div {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 20% 5% 10%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+.donate-today {
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+.box-item {
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 20px rgb(198, 195, 195);
+
+}
+
+#second-box {
+    border: 2px solid red;
+    background-color: rgb(244, 222, 213);
+}
+
+.redorange-color {
+    color: red;
+}
+
+.grey-color {
+    color: grey;
+}
+
+.lightgrey-color {
+    color: lightgrey;
+}
+
+.donate-plan {
+    margin-bottom: 100px;
+}
+
+#mydonate-plan {
+    text-align: center;
+}
+
+.secondbox-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px whitesmoke;
+
+
+}
+
+#food {
+    background-color: rgb(223, 221, 221);
+}
+
+#shelter {
+    background-color: lightpink;
+}
+
+#education {
+    background-color: lightgoldenrodyellow;
+}
